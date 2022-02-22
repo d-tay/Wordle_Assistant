@@ -7,7 +7,7 @@ Created on Tue Feb 15 10:08:40 2022
 
 import csv
 
-with open('C:/Users/david/.spyder-py3/wordle/wordle_list_nyt.csv') as csvfile:
+with open('wordle_list_nyt.csv') as csvfile:
     wordle_list = list(csv.reader(csvfile))[0]
 
 # Define variables
